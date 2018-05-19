@@ -1,0 +1,176 @@
+<Du_lieu>   
+    <Cua_hang Ma_so="FRE" Ten="Nhà Hàng FreRes" />
+        <Thuc_don_nha_hang>
+            <Mon_an Ten="Bò beefsteak" Ma_so="Monan_1" Don_gia="700000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="700000" So_luong="2" Tien="1400000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="700000" So_luong="2" Tien="1400000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="700000" So_luong="3" Tien="2100000"/>
+            </Danh_sach_ban>
+            </Mon_an>
+            <Mon_an Ten="Phở Bò" Ma_so="Monan_2" Don_gia="50000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="50000" So_luong="2" Tien="100000"/>
+            <Ban_hang Ngay="2018-2-2" Don_gia="50000" So_luong="2" Tien="100000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="50000" So_luong="3" Tien="150000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+            <Mon_an Ten="Gà Nướng" Ma_so="Monan_3" Don_gia="500000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="500000" So_luong="1" Tien="500000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="500000" So_luong="2" Tien="1000000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+            <Mon_an Ten="Vịt Quay" Ma_so="Monan_4" Don_gia="600000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="600000" So_luong="1" Tien="600000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="600000" So_luong="2" Tien="1200000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="600000" So_luong="2" Tien="1200000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+            <Mon_an Ten="Cá Hấp" Ma_so="Monan_5" Don_gia="300000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="300000" So_luong="1" Tien="300000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="300000" So_luong="1" Tien="300000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="300000" So_luong="2" Tien="600000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Lẩu Nấm" Ma_so="Monan_6" Don_gia="500000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="500000" So_luong="1" Tien="500000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="500000" So_luong="1" Tien="500000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="500000" So_luong="2" Tien="1000000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Chả Cá Lã Vọng" Ma_so="Monan_7" Don_gia="200000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="200000" So_luong="1" Tien="200000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="200000" So_luong="1" Tien="200000"/>
+            <Ban_hang Ngay="2018-2-4" Don_gia="200000" So_luong="3" Tien="600000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Bún Bò Huế" Ma_so="Monan_8" Don_gia="40000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-5" Don_gia="40000" So_luong="2" Tien="80000"/>
+            <Ban_hang Ngay="2018-7-6" Don_gia="40000" So_luong="3" Tien="120000"/>
+            <Ban_hang Ngay="2018-9-1" Don_gia="40000" So_luong="2" Tien="80000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Canh Chua" Ma_so="Monan_9" Don_gia="300000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2018-9-3" Don_gia="300000" So_luong="1" Tien="300000"/>
+            <Ban_hang Ngay="2018-4-6" Don_gia="300000" So_luong="1" Tien="300000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="300000" So_luong="2" Tien="600000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Thịt Rồng" Ma_so="Monan_10" Don_gia="10000000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="10000000" So_luong="1" Tien="10000000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Rượu Vang Pháp" Ma_so="Monan_11" Don_gia="50000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-2" Don_gia="50000" So_luong="3" Tien="150000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="50000" So_luong="1" Tien="50000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="50000" So_luong="2" Tien="100000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Nước Cam" Ma_so="Monan_12" Don_gia="30000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-12-3" Don_gia="30000" So_luong="5" Tien="150000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="30000" So_luong="1" Tien="30000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="30000" So_luong="2" Tien="60000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Nước Dâu Tằm" Ma_so="Monan_13" Don_gia="50000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="50000" So_luong="1" Tien="50000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="50000" So_luong="1" Tien="50000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="50000" So_luong="2" Tien="100000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="SoJu hàn Quốc" Ma_so="Monan_14" Don_gia="100000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-7" Don_gia="100000" So_luong="1" Tien="100000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="100000" So_luong="1" Tien="100000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="100000" So_luong="5" Tien="500000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Nước Ép Táo" Ma_so="Monan_15" Don_gia="40000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="40000" So_luong="1" Tien="40000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="40000" So_luong="1" Tien="40000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="40000" So_luong="2" Tien="800000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Trà Bưởi" Ma_so="Monan_16" Don_gia="70000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="70000" So_luong="1" Tien="70000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="70000" So_luong="3" Tien="210000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="70000" So_luong="2" Tien="140000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Trà Sâm" Ma_so="Monan_17" Don_gia="100000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="100000" So_luong="1" Tien="100000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="100000" So_luong="1" Tien="100000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="100000" So_luong="2" Tien="200000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Nước Đào" Ma_so="Monan_18" Don_gia="45000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="45000" So_luong="1" Tien="45000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="45000" So_luong="1" Tien="45000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="45000" So_luong="2" Tien="90000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Nước Ép Trái Cây" Ma_so="Monan_19" Don_gia="50000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="50000" So_luong="1" Tien="50000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="50000" So_luong="1" Tien="50000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="50000" So_luong="2" Tien="100000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+              <Mon_an Ten="Cocktail" Ma_so="Monan_20" Don_gia="200000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="200000" So_luong="3" Tien="600000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="200000" So_luong="1" Tien="200000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="200000" So_luong="2" Tien="400000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+                <Mon_an Ten="ChessCake" Ma_so="Monan_21" Don_gia="50000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="50000" So_luong="3" Tien="150000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="50000" So_luong="1" Tien="50000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="50000" So_luong="2" Tien="100000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+                <Mon_an Ten="Crepe Sầu Riêng" Ma_so="Monan_22" Don_gia="60000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="60000" So_luong="3" Tien="180000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="60000" So_luong="2" Tien="120000"/>>
+            </Danh_sach_ban>
+             </Mon_an>
+                <Mon_an Ten="Tiramisu" Ma_so="Monan_23" Don_gia="55000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="55000" So_luong="3" Tien="165000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="55000" So_luong="1" Tien="55000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="55000" So_luong="2" Tien="110000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+                <Mon_an Ten="Flan" Ma_so="Monan_24" Don_gia="20000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="20000" So_luong="1" Tien="20000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="20000" So_luong="1" Tien="20000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="20000" So_luong="2" Tien="40000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+                <Mon_an Ten="Strawbery Yourt" Ma_so="Monan_25" Don_gia="40000" >
+             <Danh_sach_ban>
+             <Ban_hang Ngay="2017-9-3" Don_gia="40000" So_luong="2" Tien="80000"/>
+            <Ban_hang Ngay="2018-2-6" Don_gia="40000" So_luong="1" Tien="40000"/>
+            <Ban_hang Ngay="2018-2-1" Don_gia="40000" So_luong="2" Tien="80000"/>
+            </Danh_sach_ban>
+             </Mon_an>
+        </Thuc_don_nha_hang>
+</Du_lieu>

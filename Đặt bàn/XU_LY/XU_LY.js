@@ -1,18 +1,18 @@
 /*jshint esversion: 6 */
 function Tao_Chuoi_HTML_Danh_sach_Mat_hang(Danh_sach) {
 
-    var Dia_chi_Media = "../Media";
+    var Dia_chi_Media = "../images";
     var Th_Danh_sach = document.createElement("div");
     Th_Danh_sach.className = "row";
     var select = document.getElementsByTagName("select")[0];
 
-    for (var i = 0; i < Danh_sach.getElementsByTagName("Tivi").length; i++) {
-        var Mat_hang = Danh_sach.getElementsByTagName("Tivi")[i];
+    for (var i = 0; i < Danh_sach.getElementsByTagName("Mon_an").length; i++) {
+        var Mat_hang = Danh_sach.getElementsByTagName("Mon_an")[i];
         var Ten = Mat_hang.getAttribute("Ten");
         var Ma_so = Mat_hang.getAttribute("Ma_so");
-        var Don_gia_Ban = parseInt(Mat_hang.getAttribute("Don_gia_Ban"));
-        var So_luong_Ton = Mat_hang.getAttribute("So_luong_Ton");
-        var Doanh_thu = Mat_hang.getAttribute("Doanh_thu");
+        var Don_gia_Ban = parseInt(Mat_hang.getAttribute("Don_gia"));
+        //var So_luong_Ton = Mat_hang.getAttribute("So_luong_Ton");
+        //var Doanh_thu = Mat_hang.getAttribute("Doanh_thu");
 
         var Th_Hinh = document.createElement("img");
         Th_Hinh.src = `${Dia_chi_Media}/${Ma_so}.png`;
@@ -27,20 +27,20 @@ function Tao_Chuoi_HTML_Danh_sach_Mat_hang(Danh_sach) {
 
         var Don_gia_Ban_Card = document.createElement("p");
         Don_gia_Ban_Card.className = "card-text";
-        Don_gia_Ban_Card.innerText = "Đơn giá bán: " + Don_gia_Ban;
+        Don_gia_Ban_Card.innerText = "Đơn giá bán: " + Don_gia;
 
-        var So_luong_Ton_Card = document.createElement("p");
+        /*var So_luong_Ton_Card = document.createElement("p");
         So_luong_Ton_Card.className = "card-text";
-        So_luong_Ton_Card.innerText = "Số lượng tồn: " + So_luong_Ton;
+        So_luong_Ton_Card.innerText = "Số lượng tồn: " + So_luong_Ton;*/
 
-        var Doanh_thu_Card = document.createElement("p");
+        /*var Doanh_thu_Card = document.createElement("p");
         Doanh_thu_Card.className = "card-text";
-        Doanh_thu_Card.innerText = "Doanh thu: " + Doanh_thu;
+        Doanh_thu_Card.innerText = "Doanh thu: " + Doanh_thu;*/
 
         Th_Thong_tin.appendChild(Tieu_de);
         Th_Thong_tin.appendChild(Don_gia_Ban_Card);
-        Th_Thong_tin.appendChild(So_luong_Ton_Card);
-        Th_Thong_tin.appendChild(Doanh_thu_Card);
+        //Th_Thong_tin.appendChild(So_luong_Ton_Card);
+        //Th_Thong_tin.appendChild(Doanh_thu_Card);
 
         var Th_Mat_hang = document.createElement("div");
         Th_Mat_hang.className = "card col-md-3";
@@ -57,10 +57,10 @@ function Tao_Chuoi_HTML_Danh_sach_Mat_hang(Danh_sach) {
 //************** Xử lý Nghiệp vụ ***********
 function Tra_cuu_Mat_hang(Chuoi_Tra_cuu, Danh_sach) {
     Chuoi_Tra_cuu = Chuoi_Tra_cuu.toUpperCase();
-    var Tai_lieu = new DOMParser().parseFromString("<Danh_sach_Tivi /", "text/xml");
-    var Danh_sach_Kq = Tai_lieu.documentElement;
-    for (var i = 0; i < Danh_sach.getElementsByTagName("Tivi").length; i++) {
-        var Mat_hang = Danh_sach.getElementsByTagName("Tivi")[i];
+    var Tai_lieu = new DOMParser().parseFromString("<Thuc_don_nha_hang /", "text/xml");
+    var Danh_sach_Kq = Tai_lieu.documentElement; - 0
+    for (var i = 0; i < Danh_sach.getElementsByTagName("Mon_an").length; i++) {
+        var Mat_hang = Danh_sach.getElementsByTagName("Mon_an")[i];
         var Ten = Mat_hang.getAttribute("Ten").toUpperCase();
         if (Ten.indexOf(Chuoi_Tra_cuu) >= 0)
             Danh_sach_Kq.appendChild(Tai_lieu.importNode(Mat_hang, true));
@@ -72,7 +72,7 @@ function Tra_cuu_Mat_hang(Chuoi_Tra_cuu, Danh_sach) {
 
 // ************** Xử lý Lưu trữ ***********
 function Doc_Danh_sach_Mat_hang() {
-    var url = "http://localhost:3000/?Ma_so_Xu_ly=Doc_Du_lieu_Nhan_vien_Ban_hang"
+    var url = "http://localhost:3000/?Ma_so_Xu_ly=Doc_du_lieu_mon_an"
     var Xu_ly_HTTP = new XMLHttpRequest();
     Xu_ly_HTTP.open("GET", url, false);
     Xu_ly_HTTP.send("");
@@ -89,8 +89,7 @@ function Tao_Chuoi_HTML_Nhom_Tivi(Danh_sach) {
     Th_Nhom_Tivi_THead = document.createElement("thead");
     Th_Nhom_Tivi_THead_r = document.createElement("tr");
     Th_Nhom_Tivi_THead_r.innerHTML = ` <th scope="col">#</th>
-                                        <th scope="col">Tên</th>
-                                        <th scope="col">Số Lượng Tồn</th>`;
+                                        <th scope="col">Tên</th>`;
     Th_Nhom_Tivi_THead.appendChild(Th_Nhom_Tivi_THead_r);
     Th_Nhom_Tivi_Table.appendChild(Th_Nhom_Tivi_THead);
 
@@ -126,10 +125,10 @@ function Thay_doi_Select(Danh_sach) {
     var select = document.getElementsByTagName("select")[0];
     var selected = select.options[select.selectedIndex].value;
 
-    for (var i = 0; i < Danh_sach.getElementsByTagName("Tivi").length; i++) {
-        var id = Danh_sach.getElementsByTagName("Tivi")[i].getAttribute("Ma_so");
+    for (var i = 0; i < Danh_sach.getElementsByTagName("Mon_an").length; i++) {
+        var id = Danh_sach.getElementsByTagName("Mon_an")[i].getAttribute("Ma_so");
         if (id === selected) {
-            document.getElementById("price").value = Danh_sach.getElementsByTagName("Tivi")[i].getAttribute("Don_gia_Ban");
+            document.getElementById("price").value = Danh_sach.getElementsByTagName("Mon_an")[i].getAttribute("Don_gia");
             var soluong = parseInt(document.getElementById('amount').value);
             if (!isNaN(soluong) && soluong > 0) {
                 document.getElementById('money').value = (soluong * parseInt(document.getElementById("price").value)).toString();
@@ -143,26 +142,26 @@ function Kiem_tra_Du_lieu_va_Ban_hang(Danh_sach) {
     var select = document.getElementsByTagName("select")[0];
     var selected = select.options[select.selectedIndex].value;
 
-    if (selected == "Lựa chọn tivi cần cập nhật giá nhập") {
-        alert("Vui lòng chọn tivi để cập nhật giá.");
+    if (selected == "Lựa chọn món cần cập nhật giá nhập") {
+        alert("Vui lòng chọn món để cập nhật giá.");
         return Danh_sach;
     }
 
     var amount = parseInt(document.getElementById("amount").value);
     if (isNaN(amount)) {
-        alert("Vui lòng nhập số lượng để bán hàng.");
+        alert("Vui lòng nhập số lượng để đặt bàn.");
         return Danh_sach;
     }
 
     var date = document.getElementById('dateSell').value;
     if (date == "") {
-        alert("Vui lòng chọn ngày bán hàng để bán hàng.");
+        alert("Vui lòng chọn ngày bán hàng để đặt bàn.");
     }
     return Ban_hang(date, selected, amount);
 }
 
-function Ban_hang(date, idTivi, amount) {
-    var url = "http://localhost:3000/?Ma_so_Xu_ly=Cap_nhat_Du_lieu_Nhan_vien_Ban_hang&Ngay_ban=" + date + "&Ma_so=" + idTivi + "&So_luong=" + amount;
+function Ban_hang(date, idMonan, amount) {
+    var url = "http://localhost:3000/?Ma_so_Xu_ly=Cap_nhat_du_lieu_mon_an&Ngay_ban=" + date + "&Ma_so=" + idMonan + "&So_luong=" + amount;
     console.log(url);
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", url, false);

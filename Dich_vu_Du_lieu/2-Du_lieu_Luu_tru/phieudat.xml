@@ -1,0 +1,15 @@
+<Du_lieu>   
+    <Cua_hang Ma_so="FRE" Ten="Nhà Hàng FreRes" />
+        <Phieu_dat_nha_hang>
+            <Phieu_dat Ma_so="pd1" Ngay="2018-01-01" Tong="">
+                <Danh_sach_mon>
+                <Mon_an Ten="Bò Beefsteak" So_luong="2"  Don_gia="700000" Tien="1400000"/>
+                <Mon_an Ten="Nước Cam" So_luong="2"  Don_gia="30000" Tien="60000"/>
+                <Mon_an Ten="Tiramisu" So_luong="2"  Don_gia="550000" Tien="110000"/>
+                </Danh_sach_mon>
+
+            </Phieu_dat>
+
+        </Phieu_dat_nha_hang>
+    </Cua_hang>
+ </Du_lieu>
